@@ -1,0 +1,115 @@
+.headLoading {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-bottom: 45px;
+    .countLoading {
+        height: 30px;
+        width: 150px;
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        margin: 0 645px 0 90px;
+    }
+    .searchLoading {
+        height: 30px;
+        width: 190px;
+        border-radius: 2px;
+        background-color: rgb(230, 230, 230);
+    }
+}
+.paginationLoading {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 58px 0 0 5px;
+    border-radius: 20px;
+    .pagesBlockLoading {
+        width: 659px;
+        padding: 0 0 2px 0;
+        display: flex;
+        .pageLoading {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            margin: 0 1px 0 1px;
+            width: 50px;
+            height: 45px;
+            background-color: rgb(230, 230, 230);
+            padding: 0 7px 1px 7px;
+            color: purple;
+            border-radius: 0px;
+            cursor: pointer;
+            box-shadow: 0 0 1px -1px black;
+        }
+        
+    }
+    .nextLoading, .prevLoading {
+        background-color: rgb(230, 230, 230);
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .nextLoading {
+        border-radius: 0 25px 25px 0;
+        .right {
+            width: 18px;
+            height: 18px;
+        }
+    }
+    .prevLoading {
+        border-radius: 25px 0 0 25px;
+        .left {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+.usersLoading {
+    box-shadow: 0 0 3px -1px black;
+    margin: 0 40px 40px 0;
+    width: 300px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    border-radius: 8px 8px 8px 8px;
+    gap: 0px;
+    background-color: #fff;
+    .nameStatusLoading {
+        border-radius: 0 8px 8px 0;
+        padding: 5px 10px 10px 10px;
+        .nameLoading {
+            width: 180px;
+            height: 20px;
+            background-color: rgb(230, 230, 230);
+            margin-bottom: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+        }
+        .statusLoading {
+            height: 70px;
+            width: 180px;
+            border-radius: 8px;
+            background-color: rgb(230, 230, 230);
+        }
+    }
+    .imgButtonLoading {
+        .imgLoading {
+            width: 90px;
+            height: 87px;
+            margin-bottom: 3px;
+            border-radius: 8px 0 0 0;
+            background-color: rgb(230, 230, 230);
+        }
+        .buttonLoading {
+            width: 91px;
+            height: 30px;
+            border-radius: 0 0 8px 8px;
+            background-color: rgb(230, 230, 230);
+        }
+    }
+}

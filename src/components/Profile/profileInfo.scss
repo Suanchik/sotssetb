@@ -1,0 +1,123 @@
+.profileInfo {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0px rgb(75, 75, 75);
+    .instruction  {
+        text-align: center;
+        background-color: rgb(50, 156, 205);
+        color: #fff;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .mainInfo {
+        border-radius: 10px;
+        padding: 0px 0 30px 0;
+    }
+    .contacts {
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        border-radius: 10px;
+        min-height: 400px;
+        padding-bottom: 20px;
+        .nocontacts {
+            height: 300px;
+            width: 700px;
+            margin-top: 50px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 220px;
+                height: 190px;
+                opacity: 0.4;
+                border-radius: 10%;
+                background-color: rgb(243, 243, 243);
+            }
+            div {
+                font-size:larger;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    .edit {
+        cursor: pointer;
+        float: right;
+        margin-top: 27px;
+        padding: 4px 15px 5px 15px;
+        color: purple;
+        border-radius: 2px;
+    }
+    .edit:hover {
+        transition: all ease-in-out 0.2s;
+        background-color: yellowgreen;
+        color: rgb(0, 0, 0);
+    }
+    .list_item {
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 4px;
+        .popap {
+            width: 300px;
+            box-shadow: 0 0 4px -1px rgb(0, 0, 0);
+            background-color: rgb(252, 252, 252);
+            color: black;
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 10px;
+            padding: 20px;
+            border-radius: 2px;
+            z-index: 2000;
+        }
+        .serverInfo {
+            text-align: center;
+            display: inline-block;
+            margin-right: 50px;
+            color: rgb(0, 0, 105);
+            padding: 0 10px 3px 10px;
+            background-color: rgb(131, 175, 41);
+            color: #fff;
+            border-radius: 5px;
+
+        }
+        .discription {
+            width: 200px;
+            margin-right: 50px;
+            margin-left: 50px;
+            display: inline-block;
+            margin-top: 20px;
+            color: black;
+            opacity: 0.8;
+            font-weight: 500;
+            border-radius: 5px;
+            padding: 0 0 3px 5px;
+            font-size: 15px;
+        }
+    }
+    .true {
+        height: 20px;
+        width: 20px;
+        box-shadow: 0 0 0 1.5px green;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 10px;
+        font-size: 14px;
+        color: green;
+    }
+    .false {
+        height: 20px;
+        width: 20px;
+        box-shadow: 0 0 0 2px purple;
+        display: inline-block;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .noInfo {
+        opacity: 0.4;
+    }
+}

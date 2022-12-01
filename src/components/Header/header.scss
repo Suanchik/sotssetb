@@ -1,0 +1,54 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    grid-area: header;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0px rgb(75, 75, 75);
+    width: 1416px;
+    display: flex;
+    align-items: center;
+    background-color: ye;
+    
+    h1 {
+        font-size: 25px;
+        font-weight: 500;
+        .sotsset {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            border-radius: 20px;
+            color: rgb(73, 88, 226);
+            padding: 5px 10px 5px 10px;
+            width: 150px;
+            img {
+                width: 30px;
+            }
+            .login {
+                position: absolute;
+                font-size: 17px;
+                margin-left: 1240px;
+                margin-right: 40px;
+                padding: 2px 25px 2px 25px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+        span {
+            margin-left: 1px;
+        }
+        .softsign {
+            display: inline-block;
+        }
+        .login:hover {
+            transition: all ease-in-out 0.2s;
+            box-shadow: 0 0 0 1px rgb(255, 255, 255);
+            background-color: #fff;
+            color: rgb(40, 136, 180);
+        }
+        .log {
+            font-weight: 500;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}

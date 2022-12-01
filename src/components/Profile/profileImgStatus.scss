@@ -1,0 +1,127 @@
+.profileImgStatus {
+    background-color: rgb(250, 250, 250);
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0px rgb(75, 75, 75);
+    height: 610px;
+    .photoName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2px;
+        .img {
+            .ava {
+                width: 288px;
+                margin-left: 1px;
+            }
+            .glass {
+                position: absolute;
+                height: 260px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 260px;
+                cursor: pointer;
+                padding: 15px;
+                opacity: 0;
+                background-color: #fff;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            .addPhoto {
+                position: absolute;
+                margin-top: -35px;
+                text-align: center;
+                background-color: rgb(255, 255, 255, 0.7);
+                cursor: pointer;
+                padding: 5px 0 5px 0;
+                width: 287px;
+                margin-left: 1px;
+                opacity: 0;
+                label {
+                    cursor: pointer;
+                }
+            }
+            &:hover .addPhoto {
+                transition: all ease-in-out 0.3s;
+                opacity: 1;
+            }
+            &:hover .glass {
+                transition: all ease-in-out 0.3s;
+                opacity: 0.4;
+            }
+        }
+        .name {
+            font-size: 16px;
+            height: 20px;
+            word-break:break-all;
+            overflow: hidden;
+            font-weight: bold;
+            text-align: center;
+            word-break: break-all;
+            width: 288px;
+            border-radius: 8px 8px 0 0;
+            background-color: rgb(244, 244, 255);
+            padding: 2px 0 5px 0;
+        }
+    }
+    .unfollow {
+        background-color: rgb(50, 156, 205);
+        border: none;
+        width: 250px;
+        border-radius: 7px;
+        color: #fff;
+        padding: 7px 0 7px 0;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        &:hover {
+            background-color: rgb(153, 45, 153);
+        }
+    }
+    .unfollowing {
+        background-color: rgb(44, 136, 179);
+        border: none;
+        width: 250px;
+        border-radius: 7px;
+        color: #fff;
+        padding: 7px 0 7px 0;
+        margin-top: 20px;
+        cursor: pointer;
+        opacity: 0.5;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .follow {
+        background-color: rgb(123, 165, 38);
+        width: 250px;
+        color: #fff;
+        border-radius: 7px;
+        padding: 7px 0 7px 0;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        &:hover {
+            background-color: yellowgreen;
+        }
+    }
+    .following {
+        background-color: rgb(123, 165, 38);
+        width: 150px;
+        border-radius: 7px;
+        padding: 7px 0 7px 0;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        opacity: 0.5;
+    }
+    .h4 {
+        font-weight: 500;
+        text-align: start;
+        margin-bottom: 5px;
+        margin-left: 4px;
+        color: rgb(0, 0, 0);
+    }
+}
